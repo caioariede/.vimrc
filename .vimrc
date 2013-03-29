@@ -107,13 +107,13 @@ PySplit
 " Python autocomplete and PEP8 check
 au BufRead,BufNewFile *.py SyntasticCheck
 
-# Syntastic exceptions
+" Syntastic exceptions
 let g:syntastic_html_checkers = []  " don't check .html files
 let g:syntastic_xhtml_checkers = []  " don't check .html files
 let g:syntastic_xml_checkers = []  " don't check .html files
 
-# Enable multiedit mappings
+" Enable multiedit mappings
 let g:multiedit_nomappings = 1
 
-# GitGutter specific
+" GitGutter specific
 highlight clear SignColumn
