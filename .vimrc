@@ -4,10 +4,9 @@ syntax on
 
 filetype plugin indent on
 
-"colorscheme zenburn
 colorscheme solarized
-set background=dark
 
+set background=dark
 set secure
 set nowrap
 set paste
