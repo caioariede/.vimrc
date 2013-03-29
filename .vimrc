@@ -67,6 +67,10 @@ EOF
 "
 nmap <leader>c :ene<CR>:bd #<CR>
 
+" Delimit the 80th column
+"
+set colorcolumn=80
+
 " Automatically split windows at 79 columns
 " https://coderwall.com/p/suj3fq
 "
