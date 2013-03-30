@@ -5,7 +5,7 @@
 * PEP 8 checking
 * Syntax checking
 * Autocompletion
-* Divide splits in 79 columns
+* Divide splits by 79 columns
 * Git diff preview
 * Multi-place editing
 * Highlight CSS colors
