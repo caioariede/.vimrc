@@ -33,6 +33,7 @@ set complete=.,b,u,]
 set completeopt=menu,preview
 set t_Co=256
 set laststatus=2
+set splitbelow
 
 " Better tab hotkeys
 "
