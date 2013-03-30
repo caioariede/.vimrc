@@ -34,6 +34,7 @@ set completeopt=menu,preview
 set t_Co=256
 set laststatus=2
 set splitbelow
+set incsearch
 
 " Better tab hotkeys
 "
