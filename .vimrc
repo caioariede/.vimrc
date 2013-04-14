@@ -36,6 +36,10 @@ set laststatus=2
 set splitbelow
 set incsearch
 
+" Needed to make solarized show
+" the correct colors in iTerm2
+let g:solarized_termtrans = 1
+
 " FTP specific
 "
 " Open files in a new tab
