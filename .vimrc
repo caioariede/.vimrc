@@ -36,6 +36,11 @@ set laststatus=2
 set splitbelow
 set incsearch
 
+" FTP specific
+"
+" Open files in a new tab
+let g:netrw_browse_split=3
+
 " Better tab hotkeys
 "
 nmap <C-t> :tabnew<CR>
