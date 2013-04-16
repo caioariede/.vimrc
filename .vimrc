@@ -36,6 +36,19 @@ set laststatus=2
 set splitbelow
 set incsearch
 
+" Statusline
+"
+set statusline=
+set statusline +=\ %n\ %*      "buffer number
+set statusline +=%{&ff}%*      "file format
+set statusline +=%y%*          "file type
+set statusline +=\ %<%F%*      "full path
+set statusline +=\ %m%*        "modified flag
+set statusline +=%=%5l%*       "current line
+set statusline +=/%L%*         "total lines
+set statusline +=%4v\ %*       "virtual column number
+set statusline +=0x%04B\ %*    "character under cursor
+
 " Needed to make solarized show
 " the correct colors in iTerm2
 let g:solarized_termtrans = 1
