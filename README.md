@@ -11,7 +11,7 @@
 * Highlight CSS colors
 * Better tab mapping (Ctrl-t, Ctrl-n, Ctrl-p)
 * Copy and paste mappings (,y and ,p)
-* Insert pdb breakpoint (<leader>p)
+* Insert pdb breakpoint (&lt;leader&gt;p)
 
 --
 
