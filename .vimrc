@@ -77,6 +77,9 @@ nnoremap <CR> :noh<CR><CR>
 vnoremap <silent> ,y y<cr>:call system('pbcopy', @0)<cr>
 nnoremap <silent> ,p :r ! pbpaste<cr>
 
+" Insert pdb breakpoint
+nnoremap <leader>p oimport pdb; pdb.set_trace()
+
 python << EOF
 import os
 import sys
