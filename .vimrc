@@ -142,8 +142,13 @@ let g:syntastic_html_checkers = []  " don't check .html files
 let g:syntastic_xhtml_checkers = []  " don't check .html files
 let g:syntastic_xml_checkers = []  " don't check .html files
 
-" Enable multiedit mappings
-let g:multiedit_nomappings = 1
+" vim-multiple-cursors bindings
+let g:multi_cursor_use_default_mapping = 0
+
+let g:multi_cursor_next_key = '<S-n>'
+let g:multi_cursor_prev_key = '<S-p>'
+let g:multi_cursor_skip_key = '<S-x>'
+let g:multi_cursor_quit_key = '<S-c>'
 
 " GitGutter specific
 highlight clear SignColumn

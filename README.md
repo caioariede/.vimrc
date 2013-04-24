@@ -17,7 +17,7 @@
 
 ### Vim plugins
 
-* [multiedit](https://github.com/felixr/vim-multiedit)
+* [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
 * [syntastic](https://github.com/scrooloose/syntastic)
 * [jedi-vim](https://github.com/davidhalter/jedi-vim)
 * [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
