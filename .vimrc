@@ -51,6 +51,11 @@ set statusline +=%04B\ %*    "character under cursor
 " the correct colors in iTerm2
 let g:solarized_termtrans = 1
 
+" Git Gutter
+"
+" Turn off eager execution
+let g:gitgutter_eager = 0
+
 " FTP specific
 "
 " Open files in a new tab
