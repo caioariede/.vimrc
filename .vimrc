@@ -47,6 +47,10 @@ set statusline +=/%L%*         "total lines
 set statusline +=%4v\ %*       "virtual column number
 set statusline +=%04B\ %*    "character under cursor
 
+" Always use Blowfish for encryption
+"
+set cryptmethod=blowfish
+
 " Needed to make solarized show
 " the correct colors in iTerm2
 let g:solarized_termtrans = 1
